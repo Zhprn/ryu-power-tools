@@ -10,14 +10,14 @@ const WarrantyPage = () => {
     {
       key: '1',
       label: (
-        <span className="text-xl font-bold text-[#2d5016]">
+        <span className="text-xl font-bold text-[#72c059]">
           {t.warranty.gensetTitle}
         </span>
       ),
       children: (
         <div className="space-y-6 text-gray-700 leading-relaxed">
           <div>
-            <p className="font-semibold text-[#2d5016] mb-3">
+            <p className="font-semibold text-[#72c059] mb-3">
               {t.warranty.gensetConditions}
             </p>
             <ul className="list-none space-y-2 ml-4">
@@ -35,7 +35,7 @@ const WarrantyPage = () => {
           </p>
 
           <div>
-            <p className="font-semibold text-[#2d5016] mb-3">
+            <p className="font-semibold text-[#72c059] mb-3">
               {t.warranty.gensetDoesNotApply}
             </p>
             <ul className="list-none space-y-2 ml-4">
@@ -71,14 +71,14 @@ const WarrantyPage = () => {
     {
       key: '2',
       label: (
-        <span className="text-xl font-bold text-[#2d5016]">
+        <span className="text-xl font-bold text-[#72c059]">
           {t.warranty.powertoolsTitle}
         </span>
       ),
       children: (
         <div className="space-y-6 text-gray-700 leading-relaxed">
           <div>
-            <p className="font-semibold text-[#2d5016] mb-3">
+            <p className="font-semibold text-[#72c059] mb-3">
               {t.warranty.powertoolsTerms}
             </p>
             <p className="mb-3">
@@ -105,7 +105,7 @@ const WarrantyPage = () => {
           </p>
 
           <div>
-            <p className="font-semibold text-[#2d5016] mb-3">
+            <p className="font-semibold text-[#72c059] mb-3">
               {t.warranty.powertoolsDoesNotApply}
             </p>
             <ul className="list-none space-y-2 ml-4">
@@ -149,14 +149,14 @@ const WarrantyPage = () => {
     {
       key: '3',
       label: (
-        <span className="text-xl font-bold text-[#2d5016]">
+        <span className="text-xl font-bold text-[#72c059]">
           {t.warranty.inverterTitle}
         </span>
       ),
       children: (
         <div className="space-y-6 text-gray-700 leading-relaxed">
           <div>
-            <p className="font-semibold text-[#2d5016] mb-3">
+            <p className="font-semibold text-[#72c059] mb-3">
               {t.warranty.inverterConditions}
             </p>
             <ul className="list-none space-y-2 ml-4">
@@ -185,7 +185,7 @@ const WarrantyPage = () => {
           </p>
 
           <div>
-            <p className="font-semibold text-[#2d5016] mb-3">
+            <p className="font-semibold text-[#72c059] mb-3">
               {t.warranty.inverterDoesNotApply}
             </p>
             <ul className="list-none space-y-2 ml-4">
@@ -223,7 +223,7 @@ const WarrantyPage = () => {
   return (
     <div className="bg-white py-20">
       <div className="container mx-auto max-w-screen-xl px-8 sm:px-12 lg:px-16">
-        <h2 className="text-4xl lg:text-5xl font-bold text-[#2d6a2e] mb-4 underline text-center">
+        <h2 className="text-4xl lg:text-5xl font-bold text-[#72c059] mb-4 underline text-center">
           {t.warranty.pageTitle}
         </h2>
         <p className="text-center text-gray-600 mb-12 text-lg">

@@ -102,7 +102,7 @@ export default function AboutSection() {
 
           <Col xs={{ span: 24, order: 1 }} lg={{ span: 12, order: 2 }}>
             <div className="pl-0 lg:pl-5 text-center lg:text-left">
-              <h2 className="text-4xl lg:text-6xl font-bold text-[#2d6a2e] mb-8 leading-tight">
+              <h2 className="text-4xl lg:text-6xl font-bold text-[#72c059] mb-8 leading-tight">
                 {t.home.aboutTitle}
               </h2>
               <p className="text-base lg:text-lg text-gray-600 leading-relaxed mb-10 whitespace-pre-wrap">

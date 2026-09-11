@@ -102,7 +102,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ params }) => {
             <div className="py-20">
               <Spin
                 indicator={
-                  <LoadingOutlined style={{ fontSize: 48, color: "#2d6a2e" }} />
+                  <LoadingOutlined style={{ fontSize: 48, color: "#72c059" }} />
                 }
               />
             </div>
@@ -199,7 +199,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ params }) => {
                   >
                     <Card.Meta
                       title={
-                        <h3 className="text-xl font-semibold text-[#2d5016] my-5 text-center">
+                        <h3 className="text-xl font-semibold text-[#72c059] my-5 text-center">
                           {product.name}
                         </h3>
                       }
@@ -208,7 +208,7 @@ const CategoryPage: React.FC<CategoryPageProps> = ({ params }) => {
                           <Button
                             type="primary"
                             block
-                            className="bg-[#e8e8e8] text-[#4a4a4a] border-none font-semibold h-[45px] rounded-none text-sm tracking-wide uppercase hover:bg-[#2d5016] hover:text-white"
+                            className="bg-[#e8e8e8] text-[#4a4a4a] border-none font-semibold h-[45px] rounded-none text-sm tracking-wide uppercase hover:bg-[#72c059] hover:text-white"
                           >
                             READ MORE
                           </Button>

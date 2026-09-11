@@ -117,13 +117,13 @@ const ProductCategoryPage: React.FC<ProductCategoryPageProps> = ({
             <div className="py-20">
               <Spin
                 indicator={
-                  <LoadingOutlined style={{ fontSize: 48, color: "#2d6a2e" }} />
+                  <LoadingOutlined style={{ fontSize: 48, color: "#72c059" }} />
                 }
               />
             </div>
           ) : (
             <>
-              <h1 className="text-5xl font-bold text-[#2d5016] mb-3">
+              <h1 className="text-5xl font-bold text-[#72c059] mb-3">
                 {category?.name || "Category"}
               </h1>
               {category?.description && (
@@ -161,7 +161,7 @@ const ProductCategoryPage: React.FC<ProductCategoryPageProps> = ({
                   >
                     <Card.Meta
                       title={
-                        <h3 className="text-xl font-semibold text-[#2d5016] my-5 text-center">
+                        <h3 className="text-xl font-semibold text-[#72c059] my-5 text-center">
                           {subcat.name}
                         </h3>
                       }
@@ -174,7 +174,7 @@ const ProductCategoryPage: React.FC<ProductCategoryPageProps> = ({
                           <Button
                             type="primary"
                             block
-                            className="bg-[#e8e8e8] text-[#4a4a4a] border-none font-semibold h-[45px] rounded-none text-sm tracking-wide uppercase hover:bg-[#2d5016] hover:text-white"
+                            className="bg-[#e8e8e8] text-[#4a4a4a] border-none font-semibold h-[45px] rounded-none text-sm tracking-wide uppercase hover:bg-[#589244] hover:text-white"
                           >
                             VIEW PRODUCTS
                           </Button>
@@ -214,7 +214,7 @@ const ProductCategoryPage: React.FC<ProductCategoryPageProps> = ({
                   >
                     <Card.Meta
                       title={
-                        <h3 className="text-xl font-semibold text-[#2d5016] my-5 text-center">
+                        <h3 className="text-xl font-semibold text-[#72c059] my-5 text-center">
                           {product.name}
                         </h3>
                       }
@@ -223,10 +223,10 @@ const ProductCategoryPage: React.FC<ProductCategoryPageProps> = ({
                           <Button
                             type="primary"
                             block
-                            className="bg-[#e8e8e8] text-[#4a4a4a] border-none font-semibold h-[45px] rounded-none text-sm tracking-wide uppercase hover:bg-[#2d5016] hover:text-white"
+                            className="bg-[#72c059] text-[#4a4a4a] border-none font-semibold h-[45px] rounded-none text-sm tracking-wide uppercase hover:bg-[#589244] hover:text-white"
                           >
                             READ MORE
-                          </Button>
+                          </Button>   
                         </div>
                       }
                     />

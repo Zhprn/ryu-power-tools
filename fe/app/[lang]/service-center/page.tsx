@@ -80,7 +80,7 @@ const ServiceCenterPage: React.FC = () => {
     <div className="bg-white py-20">
       <div className="container mx-auto max-w-screen-xl px-8 sm:px-12 lg:px-16">
       <div className="text-center mb-12">
-          <h2 className="text-4xl lg:text-5xl underline font-bold text-[#2d6a2e] mb-4">
+          <h2 className="text-4xl lg:text-5xl underline font-bold text-[#72c059] mb-4">
           {t.serviceCenter.title.toUpperCase()}
         </h2>
       </div>
@@ -88,7 +88,7 @@ const ServiceCenterPage: React.FC = () => {
       <div className="space-y-4">
         <Spin 
           spinning={loading || isTranslating} 
-          indicator={<LoadingOutlined style={{ fontSize: 48, color: '#2d6a2e' }} />}
+          indicator={<LoadingOutlined style={{ fontSize: 48, color: '#72c059' }} />}
         >
           {!loading && filteredCenters.length > 0 ? (
             <Collapse

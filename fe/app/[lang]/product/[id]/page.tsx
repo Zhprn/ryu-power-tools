@@ -377,7 +377,7 @@ export default function ProductDetailPage() {
               return (
                 <Link href={`/${language}/product/${item.id}`} key={item.id}>
                   <div className="flex flex-col h-full items-center justify-between">
-                    <div className="bg-white border-3 border-[#2d6a2e] flex items-center justify-center aspect-square w-full overflow-hidden ">
+                    <div className="bg-white border-3 border-[#72c059] flex items-center justify-center aspect-square w-full overflow-hidden ">
                       <img
                         src={itemImageUrl}
                         alt={item.name}
@@ -388,7 +388,7 @@ export default function ProductDetailPage() {
                         }}
                       />
                     </div>
-                    <h4 className="text-xl font-semibold text-[#2d5016] my-5 text-center">
+                    <h4 className="text-xl font-semibold text-[#72c059] my-5 text-center">
                       {isTranslatingLatest ? '...' : item.name}
                     </h4>
                     <button className="px-6 py-2 bg-primary text-white border-none font-semibold text-sm tracking-wide uppercase hover:bg-[#2d5016] hover:text-white transition-colors cursor-pointer">
@@ -432,7 +432,7 @@ export default function ProductDetailPage() {
                   href={`/${language}/product-category/${category.slug}`}
                   className="block cursor-pointer"
                 >
-                  <h4 className="text-xl font-bold text-[#2d5016] mb-2 hover:text-[#72bd5a] transition-colors">
+                  <h4 className="text-xl font-bold text-[#72c059] mb-2 hover:text-[#72bd5a] transition-colors">
                     {category.name}
                   </h4>
                 </Link>

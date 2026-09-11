@@ -75,7 +75,7 @@ export default function NewsArticleSection() {
 
           <Spin 
             spinning={loading} 
-            indicator={<LoadingOutlined style={{ fontSize: 48, color: '#2d6a2e' }} />}
+            indicator={<LoadingOutlined style={{ fontSize: 48, color: '#72c059' }} />}
           >
             {articles.length > 0 ? (
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

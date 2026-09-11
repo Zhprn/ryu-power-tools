@@ -68,7 +68,7 @@ const SearchContent: React.FC = () => {
         {/* Loading State */}
         {loading && (
           <div className="py-20 flex justify-center">
-            <Spin indicator={<LoadingOutlined style={{ fontSize: 48, color: '#2d6a2e' }} />} />
+            <Spin indicator={<LoadingOutlined style={{ fontSize: 48, color: '#72c059' }} />} />
           </div>
         )}
 
@@ -161,7 +161,7 @@ const SearchPage: React.FC = () => (
     fallback={
       <div className="bg-white py-20">
         <div className="container mx-auto max-w-screen-xl px-8 sm:px-12 lg:px-16 flex justify-center">
-          <Spin indicator={<LoadingOutlined style={{ fontSize: 48, color: '#2d6a2e' }} />} />
+          <Spin indicator={<LoadingOutlined style={{ fontSize: 48, color: '#72c059' }} />} />
         </div>
       </div>
     }

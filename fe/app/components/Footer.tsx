@@ -68,12 +68,12 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-8 h-8 rounded-full flex items-center justify-center transition"
-                    style={{ backgroundColor: "#2a6932" }}
+                    style={{ backgroundColor: "#72c059" }}
                     onMouseEnter={(e) =>
-                      (e.currentTarget.style.backgroundColor = "#3d8a3e")
+                      (e.currentTarget.style.backgroundColor = "#589244")
                     }
                     onMouseLeave={(e) =>
-                      (e.currentTarget.style.backgroundColor = "#2a6932")
+                      (e.currentTarget.style.backgroundColor = "#72c059")
                     }
                   >
                     <img
@@ -198,7 +198,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Section */}
-      <div className="bg-[#2a6932] text-white py-4 px-10 text-center">
+      <div className="bg-[#72c059] text-white py-4 px-10 text-center">
         <p className="font-semibold text-sm">© RYU POWER TOOLS 2025</p>
       </div>
     </footer>

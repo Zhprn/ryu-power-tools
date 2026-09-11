@@ -9,7 +9,7 @@ export default function CTASection() {
   const { t, language } = useLanguage();
 
   return (
-    <section className="bg-[#61a86a] min-h-80">
+    <section className="bg-[#72c059] min-h-80">
       <div className="flex flex-col lg:flex-row h-full">
         {/* Left Content */}
         <div className="w-full lg:w-2/3 flex items-center px-6 py-10 lg:px-20 lg:py-0">

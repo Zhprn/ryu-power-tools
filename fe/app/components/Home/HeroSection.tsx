@@ -28,7 +28,7 @@ export default function HeroSection() {
         <Col xs={24} lg={12} className="flex items-center">
           <div className="w-full px-8 sm:px-12 lg:px-16 py-24 max-w-screen-xl mx-auto">
             <div className="pr-0 lg:pr-10 items-center lg:items-start text-center lg:text-left">
-              <h1 className="text-3xl lg:text-4xl font-bold text-[#2d6a2e] leading-tight mb-6">
+              <h1 className="text-3xl lg:text-4xl font-bold text-[#72c059] leading-tight mb-6">
                 {t.home.heroTitle}
               </h1>
               <p className="text-lg lg:text-xl text-gray-600 leading-relaxed mb-10 whitespace-pre-wrap">

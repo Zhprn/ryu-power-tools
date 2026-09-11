@@ -55,7 +55,7 @@ export default function BlogPage() {
     <div className="bg-white py-20">
       <div className="container mx-auto max-w-screen-xl px-8 sm:px-12 lg:px-16">
         <div className="text-center mb-16">
-          <h1 className="text-4xl sm:text-5xl font-bold text-[#2d5016] underline mb-4">
+          <h1 className="text-4xl sm:text-5xl font-bold text-[#72c059] underline mb-4">
             {t.blog.title.toUpperCase()}
           </h1>
           <p className="text-lg text-gray-600">
@@ -65,7 +65,7 @@ export default function BlogPage() {
 
         <Spin
           spinning={loading || isTranslating}
-          indicator={<LoadingOutlined style={{ fontSize: 48, color: '#2d6a2e' }} />}
+          indicator={<LoadingOutlined style={{ fontSize: 48, color: '#72c059' }} />}
         >
           {(translatedArticles?.items || articles).length ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -80,7 +80,7 @@ export default function BlogPage() {
                       />
                     </div>
                     <div className="p-6 flex flex-col flex-grow">
-                      <h3 className="text-sm font-semibold text-gray-800 mb-4 line-clamp-3 leading-tight group-hover:text-[#2d5016] transition-colors text-center">
+                      <h3 className="text-sm font-semibold text-gray-800 mb-4 line-clamp-3 leading-tight group-hover:text-[#72c059] transition-colors text-center">
                         {isTranslating ? '...' : article.title}
                       </h3>
                       <div className="border-t border-gray-300 -mx-6 mt-auto pt-4 px-6">

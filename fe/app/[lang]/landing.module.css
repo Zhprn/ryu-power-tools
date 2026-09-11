@@ -23,7 +23,7 @@
 .heroTitle {
   font-size: 56px;
   font-weight: 700;
-  color: #2d6a2e;
+  color: #72c059;
   line-height: 1.2;
   margin: 0 0 24px 0;
 }
@@ -36,7 +36,7 @@
 }
 
 .heroButton {
-  background-color: #2d6a2e;
+  background-color: #72c059;
   border: none;
   border-radius: 50px;
   padding: 12px 48px;
@@ -47,7 +47,7 @@
 }
 
 .heroButton:hover {
-  background-color: #3d8a3e !important;
+  background-color: #589244 !important;
 }
 
 .heroImage {

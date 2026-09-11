@@ -56,13 +56,13 @@ export default function ProductCategoryIndexPage() {
             <div className="py-20">
               <Spin
                 indicator={
-                  <LoadingOutlined style={{ fontSize: 48, color: "#2d6a2e" }} />
+                  <LoadingOutlined style={{ fontSize: 48, color: "#72c059" }} />
                 }
               />
-            </div>
+            </div>  
           ) : (
             <>
-              <h1 className="text-5xl font-bold text-[#2d5016] mb-3">
+              <h1 className="text-5xl font-bold text-[#72c059] mb-3">
                 Product Categories
               </h1>
               <p className="text-lg text-gray-600">
@@ -97,7 +97,7 @@ export default function ProductCategoryIndexPage() {
                   >
                     <Card.Meta
                       title={
-                        <h3 className="text-xl font-semibold text-[#2d5016] my-5 text-center">
+                        <h3 className="text-xl font-semibold text-[#72c059] my-5 text-center">
                           {isTranslating ? "..." : category.name}
                         </h3>
                       }

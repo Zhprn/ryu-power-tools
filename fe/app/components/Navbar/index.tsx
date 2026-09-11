@@ -400,7 +400,7 @@ const Navbar: React.FC = () => {
         }
         styles={{
           header: {
-            background: '#2d6a2e',
+            background: '#72c059',
             borderBottom: 'none',
             padding: '16px 20px',
             color: '#ffffff'

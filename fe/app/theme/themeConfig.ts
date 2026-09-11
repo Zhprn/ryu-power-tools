@@ -4,7 +4,7 @@ import type { ThemeConfig } from 'antd';
 const theme: ThemeConfig = {
   token: {
     // Colors
-    colorPrimary: '#2a6932',
+    colorPrimary: '#72c059',
     colorSuccess: '#52c41a',
     colorWarning: '#faad14',
     colorError: '#f5222d',
